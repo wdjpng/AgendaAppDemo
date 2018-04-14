@@ -1,0 +1,3 @@
+include ':app'
+include ':libraries:mysql-connector-java-5.1.46'
+

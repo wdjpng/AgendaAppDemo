@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00303f9f</color>
+    <color name="ffe95451">#e95451</color>
+    <color name="color_empty_color">#00e95451</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="color_for_login_input">#32546f62</color>
+
+</resources>

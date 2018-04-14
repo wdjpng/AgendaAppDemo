@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:fitsSystemWindows="true"
+    tools:context="muenzel.lukas.agenda.demo.ReportActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+
+        android:id="@+id/sendButtonReport"
+
+        android:layout_width="156dp"
+
+        android:layout_height="0dp"
+
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="31dp"
+
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/register_button"
+
+        android:paddingLeft="20dp"
+
+        android:paddingRight="20dp"
+        android:text="SENDEN"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ToolbarTodoList"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:background="#ffe95451"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButtonReport"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:background="@color/color_empty_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/compactcalendar_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_symbol" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/ffe95451"
+        android:ems="10"
+        android:gravity="start"
+        android:hint=" Deine Nachricht\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButtonReport" />
+
+</android.support.constraint.ConstraintLayout>
